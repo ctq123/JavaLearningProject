@@ -25,7 +25,7 @@ public class PrivateClassTest {
 	}
 	
 	private PrivateClassTest(){
-		System.out.println("调用PrivateClassTest构造器");
+		
 	}
 
 }
