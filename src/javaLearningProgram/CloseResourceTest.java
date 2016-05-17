@@ -44,6 +44,14 @@ public class CloseResourceTest {
 					e.printStackTrace();
 				}
 			}
+			if(ois!=null){
+				try {
+					ois.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
 		}
 	}
 }
